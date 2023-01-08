@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react";
+import SeriesList from "./components/SeriesList";
+import NavBar from"./components/NavBar";
+import {data} from "./data";
+
+
 
 function App() {
-  return (
+  const [search, setSearch] = useState("");
+  const [rating, setRating] = useState(0);
+  const [series, setSeries] = useState(data)
+  
+    
+      
+
+  return(
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <NavBar setRating={setRating} setSearch={setSearch} />
+       <SeriesList 
+       setSeries={setSeries}  
+       rating={rating} 
+       data={series} 
+       series={series}
+       search={search}/> 
+
+    
+
+    
+    
     </div>
   );
 }

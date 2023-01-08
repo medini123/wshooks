@@ -1,0 +1,58 @@
+export const data = [
+    {
+        title: "The witcher",
+        author: "Andrzej Sapkowski",
+        img: "https://fr.web.img6.acsta.net/pictures/19/12/12/12/13/2421997.jpg",
+        rate: 9,
+        releaseDate: "20/12/2019",
+    },
+    {
+        title: "House of the Dragon",
+        author: " George R. R. Martin and Ryan Condal",
+        img: "https://billeder.jyllands-posten.dk/61SYDBp402uSU8XqtsVo1ijghHihPKqH3pWfUu975HY/plain/https%3A%2F%2Fbilleder.jyllands-posten.dk%2Fpictures%2Fimage%2F14328698%2Fhut8fo%2FALTERNATES%2Fmaster-free%2Fhouse-of-the-dragon-sesong-144-jpg",
+        rate: 9,
+        releaseDate: "21/08/2022",
+    },
+    {
+        title: "Dark",
+        author: "Baran bo Odar and Jantje Friese",
+        img: "https://www.avoir-alire.com/IMG/jpg/dark_s3_poster__1_.jpg",
+        rate: 7,
+        releaseDate: "01/12/2017",
+    },
+    {
+        title: "Cursed",
+        author: " Frank Miller et Tom Wheeler",
+        img: "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781534477339/cursed-9781534477339_hr.jpg",
+        rate: 8,
+        releaseDate: "17/07/2020",
+    },
+    {
+        title: "La casa de papel",
+        author: " Álex Pina",
+        img: "https://fr.web.img6.acsta.net/pictures/21/08/02/16/08/1706767.jpg",
+        rate: 10,
+        releaseDate: "02/05/2017",
+    },
+    {
+        title: "The punisher",
+        author: " Steve Lightfoot",
+        img: "https://fr.web.img4.acsta.net/pictures/17/07/18/12/32/313669.jpg",
+        rate: 9,
+        releaseDate: "17/11/2017",
+    },
+    {
+        title: "BlackList",
+        author: "Jon Bokenkamp",
+        img: "https://fr.web.img5.acsta.net/pictures/210/051/21005165_20130808113654378.jpg",
+        rate: 9,
+        releaseDate: "23/09/2013",
+    },
+    {
+        title: "Mr Robot",
+        author: "Sam Esmail",
+        img: "https://fr.web.img3.acsta.net/pictures/15/05/06/16/13/020977.jpg",
+        rate: 7,
+        releaseDate: "24/06/2015",
+    },
+]
