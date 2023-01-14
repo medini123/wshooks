@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import ReactStars from "react-rating-stars-component";
-
+import { Link } from "react-router-dom";
 
 
 function NavBar({ setSearch, setRating }) {
@@ -22,8 +22,22 @@ function NavBar({ setSearch, setRating }) {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link className='text-dark' href="#action1">Home</Nav.Link>
-              <br/>
+            <Nav className='text-dark' > 
+            <button>
+            <Link to="home" className="link">
+                  Home
+                </Link> 
+                </button>
+            </Nav>
+            
+            <Nav className='text-dark' > 
+            <button>
+            <Link to="Series" className="link">
+                  Series
+                </Link>
+                </button>
+            </Nav>
+    
             <ReactStars
     count={10}
     onChange={ratingChanged}

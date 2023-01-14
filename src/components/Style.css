@@ -23,7 +23,8 @@
 
 
 
-body {
+.div {
+
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
@@ -46,6 +47,7 @@ body {
     }
 }
 
+
   
   .navbar a:hover {
     background: #ddd;
@@ -55,3 +57,46 @@ body {
     color: blue;
   }
   
+  .footer {
+    text-align: center;
+    color: gray;
+    background-color: rgb(19, 19, 19);
+     background-size: cover;
+    
+    padding: 50px 0px 5px;
+}
+
+
+
+.Error-page {
+    text-align: center;
+    padding-top: 20%;
+}
+.Watch-container {
+    background-color: rgb(19, 19, 19);
+    padding-top: 100px;
+    
+}
+
+.Watch-movie {
+    border: 1px rgb(252, 67, 67) solid;
+    min-height: 694px;
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    padding-top: 70px;
+    padding-left: 60px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.Home-container{
+    background-size: cover;
+    color: rgb(252, 67, 67);
+    text-align: center;
+    text-decoration:dotted;   
+    min-height: 698px;
+    padding-top: 20%;
+    margin: auto;
+    
+}

@@ -23,9 +23,7 @@ function SeriesList({ data, search, rating, setSeries }) {
   };
   return (
     <div className='books-list-container'>
-      <br/>
-      <br/>
-      <br/>
+     
          <h1>Series List</h1>
         <br/>
         <br/>
@@ -49,14 +47,14 @@ function SeriesList({ data, search, rating, setSeries }) {
     </div>
     <Modal show={show} onHide={handleClose} animation="true">
         <Modal.Header closeButton>
-          <Modal.Title>Add new Series:</Modal.Title>
+          <Modal.Title className="text-danger">Add new Series:</Modal.Title>
         </Modal.Header>
         <Modal.Body>
 
        
         <Form onChange={(e) => handleChange(e)}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Series Title</Form.Label>
+        <Form.Label className="text-primary">Series Title</Form.Label>
         <Form.Control type="Text"
          placeholder="add the title of the series" 
          name="title"

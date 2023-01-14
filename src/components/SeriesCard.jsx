@@ -1,10 +1,10 @@
 import React from 'react';
 import {Button, Card} from "react-bootstrap";
 import "./Style.css"
+import {Link} from "react-router-dom"
 
 
-
-  function SeriesCard({ title, author, img, rate, releaseDate }) {
+  function SeriesCard({ title, author, img, rate, releaseDate, id }) {
  
     
   return (
@@ -29,7 +29,10 @@ import "./Style.css"
         <br/>
         <Card.Subtitle className='text-warning'>Rate : {rate} </Card.Subtitle>
         <br/>
-        <Button variant="primary">Details</Button>
+        <Button >
+        <Link className='text-dark' to={`/product/${id}`}>Details</Link>
+          </Button>
+          
       </Card.Body>
     </Card>
   
